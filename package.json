@@ -1,7 +1,7 @@
 {
   "name": "release-it-beautiful-changelog",
   "type": "module",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "packageManager": "pnpm@8.15.3",
   "description": "A release-it plugin using @unjs/changelogen to extract beautiful change-log and update CHANGELOG.md while do all releasing stuff with release-it",
   "author": "mgh <m.ghoreshi@gmail.com>",
