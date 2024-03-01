@@ -60,6 +60,7 @@ class BeautifulChangelogPlugin extends Plugin {
       changelog = changelog.replace(/^\s*[\r\n]+/, '')
 
       this.setContext({ changelog })
+      this.config.setContext({ changelog })
 
       if (!isDryRun)
         await this.updateChangelogFile(tagName, changelog)
