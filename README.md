@@ -45,7 +45,7 @@ In `release-it` configuration file (`.release-it.json`) add the `release-it-beau
 
 After install plugin and add name of the plugin in `release-it` plugin section, you can use `pnpm release-it` and follow release steps to make your release. the generated changelog will be added to our `CHANGELOG.md` and GitHub's Release-Note (if you release it to github).
 
-For example, the release `v.0.1.1` of this repo was made with this command:
+For example, the release `v1.0.6` of [`my-typescript-library-starter`](https://github.com/mohammadGh/my-typescript-library-starter) was made with this command:
 
 ```bash
 pnpm release   // or: pnpm run release-it
