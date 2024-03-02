@@ -40,3 +40,16 @@ In `release-it` configuration file (`.release-it.json`) add the `release-it-beau
 }
 
 ```
+
+## Example
+
+After install plugin and add name of the plugin in `release-it` plugin section, you can use `pnpm release-it` and follow release steps to make your release. the generated changelog will be added to our `CHANGELOG.md` and GitHub's Release-Note (if you release it to github).
+
+For example, the release `v.0.1.1` of this repo was made with this command:
+
+```bash
+pnpm release   // or: pnpm run release-it
+```
+The below screenshot shows the `release-it`'s cli interactive commands:
+
+![image](https://drive.google.com/uc?export=view&id=1OddYtEhPr0RrH5azc4-_W2ENY7vN4lCJ)
